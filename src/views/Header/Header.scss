@@ -1,0 +1,19 @@
+.Header {
+  background-color: #ccc;
+  height: 80px;
+
+  .c-nav {
+    margin: 10px;
+
+    a {
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &.is-active {
+        color: cyan;
+      }
+    }
+  }
+}
